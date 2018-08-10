@@ -13,6 +13,7 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 footer                   : false # Whether to include a footer with the built site
 masthead                 : true  # Whether to include a masthead (header/navbar) with the site. (the masthead won't ever be shown with the textbook)
 
+
 # Textbook settings
 hub_url                  : "https://jupyterhub.cs.duke.edu"  # The URL for your JupyterHub/BinderHub.
 hub_name                 : "DataHub"  # The name of your JupyterHub (used for the button in the NavBar. If an empty string, no button is shown)
