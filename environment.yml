@@ -4,12 +4,15 @@ channels:
   - conda-forge
 
 dependencies:
+  - ruby
   - pip:
     - bs4
     - tqdm
+    - notebook
     - numpy
     - datascience
     - pyyaml
     - nbformat
     - nbclean
-    - -r ../binder/requirements.txt
+    - nbgitpuller
+    - -r ./binder/requirements.txt
