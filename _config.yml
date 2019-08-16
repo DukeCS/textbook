@@ -50,11 +50,6 @@ use_jupyterlab: false                     # If 'true', interact links will use J
 use_jupyterhub_button: true              # If 'true', display a button that will direct users to a JupyterHub (that you provide)
 jupyterhub_url: 'https://jupyterhub.cs.duke.edu' # The URL for your JupyterHub. If no URL, use ""
 jupyterhub_interact_text: Interact             # The text that interact buttons will contain.
-# Added by nate
-jupyterhub_repo_base: https://github.com
-jupyterhub_repo_org: gusennan
-jupyterhub_repo_name: textbook
-jupyterhub_repo_branch: gh-pages
 
 # Binder link settings
 use_binder_button: false                  # If 'true', add a binder button for interactive links
